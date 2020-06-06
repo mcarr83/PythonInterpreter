@@ -1,0 +1,27 @@
+str = "The number is"
+print str
+for i in range(5):
+    for j in range(14):
+        if i % 2 == 0:
+            #ignored
+            print str,i,j
+        elif j == 2 or j == 12:
+                    print "Oops"
+        else:
+            print "Got here"
+a = (1 + i + j) * 2
+b = 3 / 2
+c = 3 // 2
+d = 1.5 * 2
+print a
+print b
+print c
+print d
+e = a + b + c + d
+print e
+stra = "got it"
+for i in range(6):
+    stra = stra + "t"
+print stra
+
+
